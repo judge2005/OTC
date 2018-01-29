@@ -1,0 +1,11 @@
+(module nixiemisc:nixiemisc-THT-100-35 placed (layer F.Cu) (tedit 5A388A36)
+  (attr virtual)
+  (fp_text reference NE2 (at 1.34 -2.3) (layer F.SilkS)
+    (effects (font (thickness 0.15)))
+  )
+  (fp_text value Right (at 0 0) (layer F.SilkS) hide
+    (effects (font (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 1.778 1.778) (drill 0.89916) (layers *.Cu *.Paste *.Mask))
+  (pad 2 thru_hole circle (at 2.54 0) (size 1.778 1.778) (drill 0.89916) (layers *.Cu *.Paste *.Mask))
+)
